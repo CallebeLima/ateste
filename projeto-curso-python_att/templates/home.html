@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/reset.css" />
+    <link rel="stylesheet" href="../static/css/home.css" />
+    <link rel="stylesheet" href="../static/fonts/fonts.css" />
+    <title>Inicio</title>
+  </head>
+
+  <body>
+    <header>
+      <section class="navbar">
+        <li class="item"><a href="/">Inicio</a></li>
+        <li class="item"><a href="sobre">Sobre</a></li>
+        <li class="item"><a href="referencia">Referência</a></li>
+      </section>
+    </header>
+    <div class="contentForm">
+      <div class="right-content">
+        <h1 id="title">Cadastre-se</h1>
+        <p id="sub-title">Preencha os dados abaixo!</p>
+        <form action="/enviar" method="post">
+            <div class="fields">
+              <div class="fieldMain">
+                <div class="nome-campo-main">
+                  <span>Nome</span>
+                  <span class="span_campos"><input type="text" placeholder="Nome" id="nome" name="nome_input"/></span>                  
+                </div>
+                <div class="nome-campo-main">
+                  <span>Sobrenome</span>
+                  <span class="span_campos"><input type="text" placeholder="Sobrenome" id="snome" name="snome_input"/></span>
+                </div>
+              </div>
+            </div>
+            <div class="fields">
+              <div class="nome-campo">
+                <span>Email</span>
+                <input type="email" placeholder="Email" id="email" name="email_input"/>
+              </div>
+            </div>
+            <div class="fields">
+              <div class="nome-campo">
+                <span>Telefone</span>
+                <input type="text" placeholder="Telefone" id="fone" name="fone_input"/>
+              </div>
+            </div>
+            <div class="fields">
+              <button class="button" type="submit"><a href="" id="btnEnviar">Enviar</a></button>
+            </div>               
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
