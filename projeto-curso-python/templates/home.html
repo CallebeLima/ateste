@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/reset.css" />
+    <link rel="stylesheet" href="../static/css/home.css" />
+    <link rel="stylesheet" href="../static/fonts/fonts.css" />
+    <title>Inicio</title>
+  </head>
+
+  <body>
+    <header>
+      <section class="navbar">
+        <li class="item"><a href="/">Inicio</a></li>
+        <li class="item"><a href="sobre">Sobre</a></li>
+        <li class="item"><a href="referencia">Referência</a></li>
+      </section>
+    </header>
+    <div class="contentForm">
+      <div class="right-content">
+        <h1 class="title">Envie seus dados e<br />entraremos em contato!</h1>
+        <form action="/enviar" method="post">
+            <div class="fields">
+              <div class="fieldMain">
+                <div class="fields-main-campo">
+                  <span class="fieldName">Nome</span>
+                  <span class="span_campos"><input type="text" placeholder="Nome" id="nome" name="nome_input"
+                    /></span>                  
+                </div>
+                <span class="fieldName">Sobrenome</span>
+                <span class="span_campos"><input type="text" placeholder="Sobrenome" id="snome" name="snome_input"
+                /></span>
+              </div>
+            </div>
+            <div class="fields">
+              <span class="fieldName">Email</span>
+              <input type="email" placeholder="Email" id="email" name="email_input"/>
+            </div>
+            <div class="fields">
+              <span class="fieldName">Telefone</span>
+              <input type="text" placeholder="Telefone" id="fone" name="fone_input"/>
+            </div>
+            <div class="fields">
+              <button class="button" type="submit"><a href="" id="btnEnviar">Enviar</a></button>
+            </div>               
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

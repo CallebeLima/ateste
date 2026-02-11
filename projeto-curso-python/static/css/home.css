@@ -1,0 +1,122 @@
+* {
+    font-family: var(--montserrat);
+    font-weight: var(--regular);
+}
+
+.navbar {
+    display: flex;
+    margin: 20px 50px 0 0;
+    gap: 40px;
+    justify-content: right;
+    .item {
+        list-style: none;
+    }
+}
+
+.contentForm {
+    display: flex;
+    width: 40%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    justify-content: center;
+    margin: auto;
+    height: 37vw;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+.right-content{
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: #089700;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+.title {
+    
+    font-weight: var(--bold);
+    margin-bottom: 80px;
+    font-size: 35px;
+}
+
+
+.fields {
+
+    .fields-main-campo{
+        display: flex;
+        flex-direction: column;
+    }
+    .fieldMain{
+        display: flex;
+        gap: 20px;
+        .span_campos{
+            
+        }
+    }
+
+    #nome {
+        border: 1px solid #C2C2C2;
+        padding: 15px;
+        border-radius: 10px;      
+    }
+
+    #snome {
+        border: 1px solid #C2C2C2;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    #email {
+        margin-top: 20px;
+        border: 1px solid #C2C2C2;
+        padding: 15px;
+        width: 93.2%;
+        border-radius: 10px;
+    }
+
+    #fone {
+        margin-top: 20px;
+        border: 1px solid #C2C2C2;
+        width: 93.2%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    
+}
+
+.button {
+    margin-top: 40px;
+    background-color: #089700;
+    outline: transparent;
+    border: transparent;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    #btnEnviar {
+        text-decoration: none;
+        color: white;
+        font-weight: var(--regular);
+    }
+}
+
+.button:hover{
+    background-color: #0bb302;
+}
