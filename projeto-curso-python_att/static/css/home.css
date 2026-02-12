@@ -55,6 +55,7 @@ input:valid {
     font-weight: var(--bold);
     margin-bottom: 10px;
     font-size: 35px;
+    color: #089700;
 }
 
 #sub-title{
